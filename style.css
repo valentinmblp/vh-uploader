@@ -1,0 +1,28 @@
+/* VH Uploader – schlichte Info-Seiten im Markendesign (style.md: Ink, Signal-Orange, Off-White) */
+:root {
+  --ink: #0D0F14;
+  --card: #171A22;
+  --border: #2A2F3B;
+  --text: #F4F1EA;
+  --muted: rgba(244, 241, 234, 0.62);
+  --accent: #FF6A2B;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--ink); color: var(--text); }
+body {
+  font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  padding: 48px 20px 80px;
+}
+main { max-width: 720px; margin: 0 auto; }
+header { display: flex; align-items: center; gap: 14px; margin-bottom: 36px; }
+header img { width: 44px; height: 44px; border-radius: 10px; }
+header a { color: var(--text); text-decoration: none; font-weight: 700; letter-spacing: 0.5px; }
+h1 { font-size: 34px; line-height: 1.15; margin: 0 0 8px; }
+h2 { font-size: 21px; margin: 36px 0 8px; }
+p, li { color: var(--muted); }
+strong { color: var(--text); }
+a { color: var(--accent); }
+.lang { border-top: 1px solid var(--border); margin-top: 48px; padding-top: 32px; }
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 20px 22px; margin: 20px 0; }
+nav { margin-top: 28px; display: flex; gap: 18px; flex-wrap: wrap; }
+footer { margin-top: 56px; font-size: 14px; color: var(--muted); }
